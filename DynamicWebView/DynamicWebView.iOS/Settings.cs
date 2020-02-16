@@ -29,7 +29,7 @@ namespace DynamicWebView.iOS
                 }
             }
 
-            var appDefaults = new NSDictionary(serverConfigKey, "http://192.168.100.100:9000");
+            var appDefaults = new NSDictionary(serverConfigKey, "https://www.linkedin.com/in/serdarozkan41/");
 
             NSUserDefaults.StandardUserDefaults.RegisterDefaults(appDefaults);
         }
