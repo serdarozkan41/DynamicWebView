@@ -6,6 +6,7 @@ namespace DynamicWebView
 {
     public partial class App : Application
     {
+        public static string ServerURL = "";
         public App()
         {
             InitializeComponent();
